@@ -1,0 +1,72 @@
+# .project metadata for Kairos
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kairos"
+name: "Kairos"
+description: "The immutable Linux meta-distribution for edge Kubernetes"
+type: "project"
+project_lead: "mudler" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#C0707M8UEU8"
+    link: "https://cloud-native.slack.com/archives/C0707M8UEU8"
+    primary: true
+  - name: "#kairos"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2024-04-13T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/145" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kairos-io/kairos"
+
+website: "https://kairos.io"
+
+artwork: "https://landscape.cncf.io/logos/kairos.svg"
+
+adopters:
+  path: "https://github.com/kairos-io/kairos/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kairos-io/kairos"
+
+social:
+  twitter: "https://twitter.com/Kairos_OSS"
+
+security:
+  policy:
+    path: "https://github.com/kairos-io/kairos/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kairos-io/kairos/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kairos-io/kairos/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kairos-io/kairos/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kairos-io/kairos/blob/master/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kairos-io/kairos/blob/master/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Automation & Configuration"
+
+# CLOMonitor Score: 96/100
+# Documentation: 100 | License: 100 | Best Practices: 100 | Security: 77
