@@ -6,7 +6,7 @@ slug: "kairos"
 name: "Kairos"
 description: "The immutable Linux meta-distribution for edge Kubernetes"
 type: "project"
-project_lead: "mudler" # TODO: AUTO-DETECTED — please verify
+project_lead: "mudler"
 slack_channels:
   - name: "#kairos"
     workspace: "cncf"
@@ -23,7 +23,7 @@ repositories:
 
 website: "https://kairos.io"
 
-artwork: "https://landscape.cncf.io/logos/kairos.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kairos"
 
 adopters:
   path: "https://github.com/kairos-io/community/blob/main/ADOPTERS.md"
