@@ -10,16 +10,16 @@ name: "Kairos"
 description: "The immutable Linux meta-distribution for edge Kubernetes"
 type: "project"
 project_lead: "mudler" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
-  - name: "#C0707M8UEU8"
+slack_channels:
+  - name: "#kairos"
+    workspace: "cncf"
     link: "https://cloud-native.slack.com/archives/C0707M8UEU8"
     primary: true
-  - name: "#kairos"
 
 maturity_log:
   - phase: "sandbox"
     date: "2024-04-13T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/145" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/145"
 
 repositories:
   - "https://github.com/kairos-io/kairos"
