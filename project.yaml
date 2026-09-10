@@ -31,11 +31,9 @@ adopters:
 package_managers:
   docker:
     - "quay.io/kairos/hadron"
-    - "quay.io/kairos/ubuntu"
     - "quay.io/kairos/kairos-init"
     - "quay.io/kairos/auroraboot"
     - "quay.io/kairos/operator"
-    - "ghcr.io/kairos-io/hadron"
   homebrew: "kairos-io/kairos/kairos-lab"
 
 social:
