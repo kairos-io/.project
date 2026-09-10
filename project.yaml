@@ -1,9 +1,6 @@
 # .project metadata for Kairos
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set identity_type under legal (has_dco, has_cla)
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "kairos"
 name: "Kairos"
@@ -31,10 +28,15 @@ artwork: "https://landscape.cncf.io/logos/kairos.svg"
 adopters:
   path: "https://github.com/kairos-io/community/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "kairos-io/kairos"
+package_managers:
+  docker:
+    - "quay.io/kairos/hadron"
+    - "quay.io/kairos/ubuntu"
+    - "quay.io/kairos/kairos-init"
+    - "quay.io/kairos/auroraboot"
+    - "quay.io/kairos/operator"
+    - "ghcr.io/kairos-io/hadron"
+  homebrew: "kairos-io/kairos/kairos-lab"
 
 social:
   twitter: "https://twitter.com/Kairos_OSS"
